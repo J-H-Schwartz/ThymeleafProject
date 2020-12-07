@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Car Details</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/style.css}"/>
+</head>
+<body>
+<h1>Entrée n°:</h1>
+<h2 th:utext="${details.id}">..!..</h2>
+<p th:utext="${details.model}">..!..</p>
+<p th:utext="${details.brand}">..!..</p>
+<p th:utext="${details.color}">..!..</p>
+</body>
+</html>
